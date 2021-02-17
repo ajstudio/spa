@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.6rem;
+    color: #878787 !important;
+    position: relative;
+}
+
+
+.scroll-fix::before {
+    display: block;
+    margin-top: -7rem;
+    height: 7rem;
+    content: '';
+}
+
+
+/* nav */
+
+
+nav .fa-home {
+    color: #878787;
+}
+
+nav img {
+    height: 5rem;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+.navbar-toggler {
+    padding: 1rem 2rem;
+
+}
+.active {
+    font-weight: 500;
+}
+
+/* header */
+
+header {
+    margin-top: 8rem;
+}
+
+.hero-shadow {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, .4);
+    z-index: -1;
+}
+
+header {
+    position: relative;
+    height: 50rem;
+    background-image: url("img/salon.jpg");
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+
+.line {
+    background-color: #F2A0C6;
+    width: 25%;
+
+}
+
+.display-2,
+    {
+    color: #878787;
+}
+
+.btn:hover {
+    background-color: #fdd4e5;
+}
+
+.btn span,
+.submit-btn {
+    font-size: 1.4rem;
+}
+
+
+/* about us */
+
+.about-boxes {
+    background-color: #fafafa;
+}
+
+.about-box {
+
+    height: 28rem;
+}
+
+.about-icon {
+    font-size: 6rem;
+    color: #fdd4e5;
+}
+
+/* services */
+
+.card {
+    position: relative;
+}
+
+.card-img-top {
+    width: auto;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(80%);
+    opacity: 0.6;
+}
+
+.card-img-top:hover {
+    width: auto;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(0%);
+    opacity: .9;
+}
+
+.card-body {
+    height: 15rem;
+}
+
+.card-text {
+    font-size: 1.4rem;
+}
+
+.card a, 
+nav span {
+    color: #878787;
+}
+
+.card a:hover,
+.socials a:hover {
+    color: #fdd4e5;
+}
+
+
+
+/* contact */
+
+h3 {
+    font-weight: bold;
+    color: darkgrey;
+}
+
+.address p {
+    font-size: 1.4rem;
+}
+
+.form-control,
+.form-select,
+.btn {
+    font-size: 1.4rem;
+}
+
+.socials {
+    font-size: 2.5rem;
+}
+
+.socials a {
+    color: #fafafa;
+}
+footer {
+    font-size: 1.2rem;
+}
