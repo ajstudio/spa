@@ -44,6 +44,7 @@ nav img {
     padding: 1rem 2rem;
 
 }
+
 .active {
     font-weight: 500;
 }
@@ -59,7 +60,7 @@ header {
     height: 100%;
     width: 100%;
     top: 0;
-    background-color: rgba(0, 0, 0, .4);
+    background-color: rgba(0, 0, 0, .2);
     z-index: -1;
 }
 
@@ -73,9 +74,14 @@ header {
 }
 
 .line {
-    background-color: #F2A0C6;
+    background-color: #ff6aa0;
     width: 25%;
 
+}
+
+.line1 {
+    background-color: #ffffff;
+    width: 25%;
 }
 
 .display-2,
@@ -85,6 +91,8 @@ header {
 
 .btn:hover {
     background-color: #fdd4e5;
+    border-color: #fdd4e5;
+
 }
 
 .btn span,
@@ -115,10 +123,11 @@ header {
     position: relative;
 }
 
+
 .card-img-top {
     width: auto;
-    -webkit-filter: grayscale(0%);
-    filter: grayscale(80%);
+    -webkit-filter: grayscale(50%);
+    filter: grayscale(50%);
     opacity: 0.6;
 }
 
@@ -126,7 +135,7 @@ header {
     width: auto;
     -webkit-filter: grayscale(100%);
     filter: grayscale(0%);
-    opacity: .9;
+    opacity: .8;
 }
 
 .card-body {
@@ -137,15 +146,16 @@ header {
     font-size: 1.4rem;
 }
 
-.card a, 
+.card a,
 nav span {
     color: #878787;
 }
 
 .card a:hover,
 .socials a:hover {
-    color: #fdd4e5;
+    color: #ff6aa0;
 }
+
 
 
 
@@ -173,6 +183,7 @@ h3 {
 .socials a {
     color: #fafafa;
 }
+
 footer {
     font-size: 1.2rem;
 }
